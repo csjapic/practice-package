@@ -8,6 +8,6 @@ setup(
 	    author_email='csjapic@gmail.com',
         license='MIT',
 	    description='Description of my package',
-	    packages=['mypackage']    
+	    packages=['package']    
     
 )
