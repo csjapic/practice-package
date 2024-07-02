@@ -1,12 +1,13 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-   name='MyPackageName',
-	    version='1.0.0',
-	    url='https://github.com/mypackage.git',
+   name='Test',
+	    version='0.1',
+	    url='https://github.com/csjapic/practice-package/tree/e82ae4091ccfe25ea6dec1b1a22029f35d676937/package',
 	    author='Chloe Japic',
 	    author_email='csjapic@gmail.com',
+        license='MIT',
 	    description='Description of my package',
-	    packages=find_packages(),    
-    install_requires=['numpy >= 1.11.1', 'matplotlib >= 1.5.1'], 
+	    packages=['mypackage']    
+    
 )
