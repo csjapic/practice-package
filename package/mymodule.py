@@ -1,2 +1,2 @@
-def euros_winner():
-    return print("Spain will win the Euros")
+def multiply_by_two(x):
+    return x*2
